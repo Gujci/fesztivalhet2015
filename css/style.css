@@ -33,7 +33,9 @@ body
 
 .upper_menu
 {
-    position: relative;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
     background-color: #d8851e;
     width: 100%;
     height:  83px;
@@ -83,9 +85,10 @@ div.upper_menu a:hover
 /*a fő tartalom megvalósítása eleje*/
 .main_field
 {
+    margin: 0;
+    top: 83px;
     background-color: rgba(0,0,0,0.7);
     position: relative;
-    margin: 0;
     padding-bottom: 50px;
     width:1110px;
     left:calc((100% - 1110px) / 2);
@@ -93,13 +96,14 @@ div.upper_menu a:hover
 
 .main_content
 {
+    margin: 0;
     height:100%;
     width:100%;
 }
 
 .main_header
 {
-    width: 100%;
+    margin-top: 0;
     text-align: center;
     color: white;
 }
@@ -122,6 +126,12 @@ div.upper_menu a:hover
     font-family: PermanentMarker, serif;
 }
 
+.main {
+    width: 100%;
+    margin-top: 59px;
+}
+
+
 .main_program
 {
     text-align: center;
@@ -132,51 +142,49 @@ div.upper_menu a:hover
 
 .main_ticket
 {
-    top:5%;
-    width:100%;
     text-align: center;
     color: white;
-    font-family: Roboto,sans-serif;
     position: relative;
 }
 
 .main_info
 {
-    top:10%;
     text-align: center;
     color: white;
-    font-family: Roboto,sans-serif;
     position: relative;
 }
 
 .main_contact
 {
-    top:15%;
     text-align: center;
     color: white;
     font-family: Roboto,sans-serif;
     position: relative;
     display: inline-block;
+}
+
+.title {
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 0 51px;
+    padding: 0;
+    text-align: center;
 }
 
 .day_indicator
 {
     width: 30%;
     display: inline-block;
-    height: 59px;
+    height: 57px;
     text-transform: uppercase;
 }
-
-.outlined_text
-{
-
-}
-
 
 .content_holder
 {
     position: relative;
-    top:5px;
+    top:19px;
 }
 
 .main_program_line
@@ -187,18 +195,15 @@ div.upper_menu a:hover
 }
 
 .line-color-red {
-    background-color: #ff1d15;
-    opacity: 0.5;
+    background-color: rgba(255,29,21,0.5);
 }
 
 .line-color-yellow {
-    background-color: #eaa000;
-    opacity: 0.5;
+    background-color: rgba(234,160,0,0.5);
 }
 
 .line-color-blue {
-    background-color: #00d4e7;
-    opacity: 0.5;
+    background-color: rgba(0,212,231,0.5);
 }
 
 .main_program_schedul
