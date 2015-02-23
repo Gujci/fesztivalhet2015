@@ -128,37 +128,32 @@ div.upper_menu a:hover
 
 .main {
     width: 100%;
-    margin-top: 59px;
+    margin-top: 120px;
 }
 
 
 .main_program
 {
     text-align: center;
-    color: white;
-    top: 120px;
     position: relative;
+    top: 120px;
 }
 
 .main_ticket
 {
     text-align: center;
-    color: white;
     position: relative;
 }
 
 .main_info
 {
     text-align: center;
-    color: white;
     position: relative;
 }
 
 .main_contact
 {
     text-align: center;
-    color: white;
-    font-family: Roboto,sans-serif;
     position: relative;
     display: inline-block;
 }
@@ -179,6 +174,18 @@ div.upper_menu a:hover
     display: inline-block;
     height: 57px;
     text-transform: uppercase;
+}
+
+.calendar-day {
+    width: 258px;
+    display: inline-block;
+    height: 120px;
+    padding-left: 65px;
+    text-align: left;
+}
+
+.yellow{
+    color: #fec259;
 }
 
 .content_holder
@@ -208,9 +215,8 @@ div.upper_menu a:hover
 
 .main_program_schedul
 {
-    height:100px;
+    height:190px;
     position: relative;
-    top:50px;!important
     width:100%;
 }
 
