@@ -1,8 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../font/PermanentMarker.ttf);
+}
+
+*{
+    font-family: "Open Sans", serif;
+}
+
 body
 {
-    margin:0px;
-    background-image: url(../img/3.jpg);
-    background-size: auto;
+    margin:0;
+    background-size: contain;
+    background: #fda321 url(../img/bg.jpg) no-repeat;
 }
 /*fenti menü megvalósítása kezdet*/
 .links
@@ -22,9 +33,9 @@ body
 .upper_menu
 {
     position: relative;
-    background-color: rgba(200,128,0,0.9);
+    background-color: #d8851e;
     width: 100%;
-    height:  80px;
+    height:  83px;
 }
 
 div.upper_menu a
@@ -33,6 +44,7 @@ div.upper_menu a
     display: inline-block;
     position: relative;
     left:10%;
+    font-size: 20px;
 }
 
 
@@ -51,11 +63,11 @@ div.upper_menu a:hover
 /*a footer megvalósítása*/
 .footer
 {
-    height:50px;
+    height:62px;
     width:100%;
     position:relative;
     bottom:-50px;
-    background-color: rgba(230,170,0,1);
+    background-color: #edbf31;
     
 }
     
@@ -72,9 +84,10 @@ div.upper_menu a:hover
 {
     background-color: rgba(0,0,0,0.7);
     position: relative;
-    height:1400px;
-    width:60%;
-    left:20%;
+    margin: 0;
+    padding-bottom: 50px;
+    width:1110px;
+    left:calc((100% - 1110px) / 2);
 }
 
 .main_content
@@ -86,30 +99,31 @@ div.upper_menu a:hover
 .main_header
 {
     width: 100%;
-    height:200px;
-    font-family: Gamera,cursive;
     text-align: center;
     color: white;
 }
 
 .main_header_text1
 {
-    top:30%;
+    top:61px;
     position: relative;
+    font-size: 24px;
+    font-family: PermanentMarker, serif;
 }
 
 .main_header_text2
 {
-    top:30%;
-    font-size: 36px;
+    top: 61px;
+    font-size: 110px;
     position: relative;
+    font-family: PermanentMarker, serif;
 }
 
 .main_program
 {
     text-align: center;
     color: white;
-    font-family: Roboto,sans-serif;
+    top: 120px;
     position: relative;
 }
 
@@ -139,6 +153,7 @@ div.upper_menu a:hover
     color: white;
     font-family: Roboto,sans-serif;
     position: relative;
+    display: inline-block;
 }
 
 .day_indicator
@@ -148,14 +163,6 @@ div.upper_menu a:hover
     display: inline-block;
 }
 
-.tworow
-{
-    width: 40%;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
-    
-}
 
 .content_holder
 {
@@ -192,5 +199,6 @@ div.avatar img
     top:-30px;
     height: 70px;
     width:70px;
+    display: inline-block;
 }
 /*a fő tartalom megvalósítása eleje*/
