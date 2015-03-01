@@ -13,8 +13,8 @@
 body
 {
     margin:0;
-    background-size: contain;
-    background: #fda321 url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background: #fda321 url(../img/bg.jpg) no-repeat 50% 63px;
 }
 /*fenti menü megvalósítása kezdet*/
 .links
