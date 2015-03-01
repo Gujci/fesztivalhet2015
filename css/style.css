@@ -153,8 +153,17 @@ div.upper_menu a:hover
 
 .main_contact
 {
-    text-align: center;
+    vertical-align: top;
+    text-align: left;
     position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 280px;
+    margin-left: 60px;
+    padding: 0;
+}
+
+.main_contact img {
     display: inline-block;
 }
 
@@ -176,10 +185,19 @@ div.upper_menu a:hover
     text-transform: uppercase;
 }
 
+.center-price {
+    width: 100%;
+    display: inline-block;
+    height: 57px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .calendar-day {
+    vertical-align: top;
     width: 258px;
     display: inline-block;
-    height: 120px;
+    height: 260px;
     padding-left: 65px;
     text-align: left;
 }
@@ -215,15 +233,9 @@ div.upper_menu a:hover
 
 .main_program_schedul
 {
-    height:190px;
+    height:260px;
     position: relative;
     width:100%;
-}
-
-
-table
-{
-    text-align: left;
 }
 
 div.avatar img
@@ -235,4 +247,3 @@ div.avatar img
     width:70px;
     display: inline-block;
 }
-/*a fő tartalom megvalósítása eleje*/
