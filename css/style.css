@@ -238,11 +238,12 @@ div.upper_menu a:hover
 {
     position: relative;
     top:19px;
+    padding-left: 10px;
     width: 100%;
 }
 
 .circle-content{
-    width: 220px;
+    width: 210px;
     display: inline-block;
     margin-left: 50px;
     margin-top: 25px;
@@ -250,12 +251,13 @@ div.upper_menu a:hover
 }
 
 .circle-content .circle-image {
-    width: 220px;
-    height: 220px;
+    width: 210px;
+    height: 210px;
     border-radius: 100%;
     background: no-repeat 50% 50%;
     margin-bottom: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -269,7 +271,7 @@ div.upper_menu a:hover
 
 .circle-content .title {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main_program_line
