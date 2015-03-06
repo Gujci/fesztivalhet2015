@@ -5,8 +5,13 @@
     src: url(../font/PermanentMarker.ttf);
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
 *{
-    font-family: "Open Sans", serif;
+    font-family: OpenSans, serif;
     color: white;
 }
 
